@@ -1,0 +1,27 @@
+POST http://localhost:5000/productos
+Content-Type: application/json
+
+{
+    "nombre": "Product 12500",
+    "precio":  900
+
+}
+
+###
+
+GET  http://localhost:5000/productos/
+
+###
+
+PATCH  http://localhost:5000/productos/26
+Content-Type: application/json
+
+{
+    "nombre": "Producto H ",
+    "precio":  45000000000
+
+}
+
+###
+DELETE http://localhost:5000/productos/2
+
